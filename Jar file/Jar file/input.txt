@@ -1,0 +1,7 @@
+2
+5
+0 10 low
+0 1 low
+6 2 high
+0 1 high
+3 5 low

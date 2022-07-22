@@ -1,0 +1,57 @@
+At cycle = 0
+Task id = 1 has arrived 
+Task id = 2 has arrived 
+Task id = 4 has arrived 
+Processor id = 1 has been assigned task id = 4
+Processor id = 2 has been assigned task id = 1
+Processor id = 1 is executing task id = 4
+Processor id = 1 is has completed task id = 4 and now is idle 
+Processor id = 2 is executing task id = 1
+
+At cycle = 1
+Processor id = 1 has been assigned task id = 2
+Processor id = 1 is executing task id = 2
+Processor id = 1 is has completed task id = 2 and now is idle 
+Processor id = 2 is executing task id = 1
+
+At cycle = 2
+Processor id = 2 is executing task id = 1
+
+At cycle = 3
+Task id = 5 has arrived 
+Processor id = 1 has been assigned task id = 5
+Processor id = 1 is executing task id = 5
+Processor id = 2 is executing task id = 1
+
+At cycle = 4
+Processor id = 1 is executing task id = 5
+Processor id = 2 is executing task id = 1
+
+At cycle = 5
+Processor id = 1 is executing task id = 5
+Processor id = 2 is executing task id = 1
+
+At cycle = 6
+Task id = 3 has arrived 
+Processor id = 1 has switched from task id = 5 to task id = 3
+Processor id = 1 has been assigned task id = 3
+Processor id = 1 is executing task id = 3
+Processor id = 2 is executing task id = 1
+
+At cycle = 7
+Processor id = 1 is executing task id = 3
+Processor id = 1 is has completed task id = 3 and now is idle 
+Processor id = 2 is executing task id = 1
+
+At cycle = 8
+Processor id = 1 has been assigned task id = 5
+Processor id = 1 is executing task id = 5
+Processor id = 2 is executing task id = 1
+
+At cycle = 9
+Processor id = 1 is executing task id = 5
+Processor id = 1 is has completed task id = 5 and now is idle 
+Processor id = 2 is executing task id = 1
+Processor id = 2 is has completed task id = 1 and now is idle 
+
+PROGRAM IS FINISHED .
